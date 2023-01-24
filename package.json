@@ -1,0 +1,38 @@
+{
+    "name": "lemoncode-bundle-parcel-v2-",
+    "source": "src/index.html",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel --open",
+        "build": "parcel build",
+        "test": "jest",
+        "lint": "eslint",
+        "check": "tsc --noEmit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/josecarlosalar/Lemoncode-Bundle-Parcel-V2-.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/josecarlosalar/Lemoncode-Bundle-Parcel-V2-/issues"
+    },
+    "homepage": "https://github.com/josecarlosalar/Lemoncode-Bundle-Parcel-V2-#readme",
+    "devDependencies": {
+        "parcel": "^2.8.3",
+        "parcel-transformer-ttypescript": "^1.0.2"
+    },
+    "dependencies": {
+        "@parcel/transformer-typescript-tsc": "^2.8.3",
+        "@parcel/transformer-sass": "^2.0.0-beta.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
